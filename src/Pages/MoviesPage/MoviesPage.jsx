@@ -25,9 +25,7 @@ const MoviesPage = () => {
         if (query.trim() === "") {
             return
         } 
-
         async function fetch() {
-
             try {
                 setLoader(true)
                 setError(false)

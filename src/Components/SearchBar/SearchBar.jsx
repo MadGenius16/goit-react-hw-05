@@ -24,9 +24,9 @@ import toast from "react-hot-toast";
                       name="query"
                       autoComplete="off"
                       autoFocus
-                      placeholder="Search movies"/>
-                  <button className={css.button} type="submit">Search</button>
-               
+                      placeholder="Search movies"
+                    />
+                    <button className={css.button} type="submit">Search</button>
               </Form>
           </Formik>
       </div>
