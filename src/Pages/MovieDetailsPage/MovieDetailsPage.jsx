@@ -63,9 +63,10 @@ const defaultImage = "https://image.tmdb.org/t/p/original/wwemzKWzjKYJFfCeiB57q3
         </div>
       </div>
       
-      <p className={css.linkText}>additional information</p>
+      
 
         <div className={css.linkWrap}>
+          <h3 className={css.linkText}>Additional information</h3>
           <Link className={css.castLink} to={"reviews"}>Reviews</Link>
           <Link className={css.reviewsLink} to={"cast"}>Cast</Link>
         </div>
