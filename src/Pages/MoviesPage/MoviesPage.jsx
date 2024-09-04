@@ -18,7 +18,6 @@ const MoviesPage = () => {
   const [query, setQuery] = useState(getQuery)
 
   const location = useLocation()
-
   const notifyNotFoundFilms = () => toast("There is any films for your request")
 
  useEffect(() => {
