@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import css from "../Navigation/Navigation.module.css"
+import css from "./Navigation.module.css"
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
