@@ -1,2 +1,27 @@
+.nav {
+  border-bottom: 1px solid;
+  box-shadow: 0px 8px 10px;
+  border-radius: 8px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
 
+.list {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 16px;
+  
+}
+
+.navLink {
+  color: black;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.active{
+  color: rgb(184, 111, 23);
+}
 

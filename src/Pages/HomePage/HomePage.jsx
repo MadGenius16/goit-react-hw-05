@@ -19,7 +19,7 @@ const HomePage = () => {
         setLoader(true)
         setError(false)
         const response = await getTrendFilms()
-                setTrendFilms(response.results)
+          setTrendFilms(response.results)
         }
       catch{
         setError(true)
@@ -34,7 +34,7 @@ const HomePage = () => {
 
   return (
     <div className={css.container}>
-    <h1>Trending Movies</h1>
+    <h1>Trending today</h1>
     {loader && <Loader />}
     {trendFilms.length > 0 && !loader && !error && <MovieList films={trendFilms} location={{from: location}} />}
     {error && <NotFoundPage />}

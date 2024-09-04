@@ -1,0 +1,26 @@
+.form{ 
+  display: flex;
+  gap: 10px;
+}
+
+.input{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px 15px;
+}
+
+.input:hover {
+  color: rgb(184, 111, 23);
+}
+
+.button{
+  font-size: 12px;
+  padding: 4px 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.button:hover {
+  color: rgb(184, 111, 23);
+}

@@ -7,10 +7,12 @@ const Navigation = () => {
       <nav className={css.nav}>
           <ul className={css.list}>
             <li>
-              <NavLink to="/" className={(params) => { clsx(css.navLink, params.isActive && css.active)}}>Home</NavLink>
+              <NavLink to="/" className={({ isActive }) => {
+  return clsx(css.navLink, isActive && css.active)}}>Home</NavLink>
             </li>
             <li>
-              <NavLink to="/movies" className={(params) => { clsx(css.navLink, params.isActive && css.active)}}>Movies</NavLink>
+              <NavLink to="/movies" className={({ isActive }) => {
+  return clsx(css.navLink, isActive && css.active)}}>Movies</NavLink>
             </li>
           </ul>
       </nav>

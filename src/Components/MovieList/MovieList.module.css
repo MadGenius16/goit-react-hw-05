@@ -1,0 +1,12 @@
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 16px;
+}
+
+.listItem a:hover,
+.listItem a:focus {
+    color: rgb(184, 111, 23);
+
+}

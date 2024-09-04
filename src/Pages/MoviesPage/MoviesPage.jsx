@@ -4,7 +4,7 @@ import MovieList from "../../Components/MovieList/MovieList"
 import NotFoundPage from "../NotFoundPage/NotFoundPage"
 import { useLocation, useSearchParams } from "react-router-dom";
 import { getFilmByKeyword } from "../../api";
-
+import css from "./MoviesPage.module.css"
 import SearchBar from "../../Components/SearchBar/SearchBar";
 import toast from "react-hot-toast";
 
@@ -52,7 +52,7 @@ const MoviesPage = () => {
   }
 
   return (
-    <div>
+    <div className={css.container}>
       <SearchBar onSubmit={handleSearch}/>
       {loader===true && <Loader/>}
       {movies.length>0 && !error && <MovieList films={movies} location={{ from: location}} />}
