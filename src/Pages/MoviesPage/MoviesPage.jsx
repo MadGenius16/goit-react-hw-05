@@ -1,11 +1,11 @@
-import Loader from "../../components/Loader/Loader"
+import Loader from "../../сomponents/Loader/Loader.jsx"
 import { useState, useEffect } from "react"
-import MovieList from "../../components/MovieList/MovieList"
+import MovieList from "../../сomponents/MovieList/MovieList.jsx"
 import NotFoundPage from "../NotFoundPage/NotFoundPage"
 import { useLocation, useSearchParams } from "react-router-dom";
 import { getFilmByKeyword } from "../../api";
 import css from "./MoviesPage.module.css"
-import SearchBar from "../../components/SearchBar/SearchBar";
+import SearchBar from "../../сomponents/SearchBar/SearchBar.jsx";
 import toast from "react-hot-toast";
 
 const MoviesPage = () => {
