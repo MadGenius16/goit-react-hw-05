@@ -9,7 +9,7 @@ const MovieDetailsPage = lazy(() => import("../src/Pages/MovieDetailsPage/MovieD
 const NotFoundPage = lazy(() => import("../src/Pages/NotFoundPage/NotFoundPage.jsx")) 
 const Navigation = lazy(() => import("../src/сomponents/Navigation/Navigation.jsx")) 
 const MovieCast = lazy(() => import("../src/сomponents/MovieCast/MovieCast.jsx")) 
-const MovieReviews = lazy(() => import("../src/сomponents/MovieReviews/MovieReviews.jsx")) 
+const MovieReviews = lazy(() => import("../src/сomponents/MovieReviews/MovieReviews.jsx"))
 
 
 function App() {
