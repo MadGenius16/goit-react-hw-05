@@ -3,7 +3,7 @@ import { Suspense, lazy } from "react";
 import css from "./App.module.css"
 
 
-const MoviesPage = lazy(() => import("../src/pages/MoviesPage/MoviesPage.jsx"))
+const MoviesPage = lazy(() => import("../src/Pages/MoviesPage/MoviesPage.jsx"))
 const MovieDetailsPage = lazy(() => import("../src/pages/MovieDetailsPage/MovieDetailsPage.jsx"))
 const NotFoundPage = lazy(() => import("../src/pages/NotFoundPage/NotFoundPage.jsx"))
 const HomePage = lazy(() => import("../src/pages/HomePage/HomePage.jsx"))
