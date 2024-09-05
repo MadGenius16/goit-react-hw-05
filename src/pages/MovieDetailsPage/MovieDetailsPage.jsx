@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react"
 import { Link, Outlet, useLocation, useParams } from "react-router-dom"
 import css from "./MovieDetailsPage.module.css"
 import { getFilmsById } from "../../api.js"
-import Loader from "../../сomponents/Loader/Loader.jsx"
+import Loader from "../../components/Loader/Loader.jsx"
 import { IoIosArrowRoundBack } from "react-icons/io";
 
 

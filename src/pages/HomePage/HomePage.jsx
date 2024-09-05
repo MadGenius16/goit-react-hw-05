@@ -2,9 +2,9 @@ import { useState, useEffect } from "react"
 import css from "./HomePage.module.css"
 import { useLocation } from "react-router-dom"
 import {getTrendFilms} from "../../api.js"
-import Loader from "../../сomponents/Loader/Loader.jsx"
+import Loader from "../../components/Loader/Loader.jsx"
 import NotFoundPage from "../NotFoundPage/NotFoundPage.jsx"
-import MovieList from "../../сomponents/MovieList/MovieList.jsx"
+import MovieList from "../../components/MovieList/MovieList.jsx"
 
 const HomePage = () => {
 

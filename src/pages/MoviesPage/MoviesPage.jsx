@@ -1,10 +1,10 @@
-import Loader from "../../сomponents/Loader/Loader.jsx"
+import Loader from "../../components/Loader/Loader.jsx"
 import { useState, useEffect } from "react"
-import MovieList from "../../сomponents/MovieList/MovieList.jsx"
+import MovieList from "../../components/MovieList/MovieList.jsx"
 import { useLocation, useSearchParams } from "react-router-dom";
 import { getFilmByKeyword } from "../../api.js";
 import css from "./MoviesPage.module.css"
-import SearchBar from "../../сomponents/SearchBar/SearchBar.jsx";
+import SearchBar from "../../components/SearchBar/SearchBar.jsx";
 import toast, { Toaster } from "react-hot-toast"
 import NotFoundPage from "../NotFoundPage/NotFoundPage.jsx";
 
