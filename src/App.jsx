@@ -14,7 +14,6 @@ const MovieReviews = lazy(() => import("../src/сomponents/MovieReviews/MovieRev
 
 function App() {
 
-
   return (
     <div className={css.container}>
       <Navigation/>
