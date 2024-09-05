@@ -15,7 +15,6 @@ const Loader = lazy(() => import("../src/сomponents/Loader/Loader.jsx"))
 
 function App() {
   
-
   return (
     <div className={css.container}>
       <Navigation/>
