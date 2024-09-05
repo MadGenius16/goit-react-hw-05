@@ -5,7 +5,7 @@ import { useLocation, useSearchParams } from "react-router-dom";
 import { getFilmByKeyword } from "../../api.js";
 import css from "./MoviesPage.module.css"
 import SearchBar from "../../сomponents/SearchBar/SearchBar.jsx";
-import toast from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast"
 import NotFoundPage from "../NotFoundPage/NotFoundPage.jsx";
 
 
@@ -17,9 +17,8 @@ const MoviesPage = () => {
 
   const getQuery = searchParams.get('query') || "";
   const [query, setQuery] = useState(getQuery)
-
   const location = useLocation()
-  const notifyNotFoundFilms = () => toast("There is any films for your request")
+  const notifyNotFoundFilms = () => toast("There are no results for your request")
 
   
  useEffect(() => {
@@ -58,6 +57,7 @@ const MoviesPage = () => {
       {loader===true && <Loader/>}
       {movies.length>0 && !error && <MovieList films={movies} location={{ from: location}} />}
       {error && <NotFoundPage/>}
+      <Toaster  toastOptions={{style: {background: "red", color: "white"}}}/>
     </div>
   )
 }
