@@ -11,7 +11,6 @@ const Navigation = lazy(() => import("../src/сomponents/Navigation/Navigation.j
 const MovieCast = lazy(() => import("../src/сomponents/MovieCast/MovieCast.jsx")) 
 const MovieReviews = lazy(() => import("../src/сomponents/MovieReviews/MovieReviews.jsx"))
 
-
 function App() {
 
   return (
