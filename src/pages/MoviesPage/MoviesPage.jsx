@@ -21,6 +21,7 @@ const MoviesPage = () => {
   const location = useLocation()
   const notifyNotFoundFilms = () => toast("There is any films for your request")
 
+  
  useEffect(() => {
         if (query.trim() === "") {
             return
